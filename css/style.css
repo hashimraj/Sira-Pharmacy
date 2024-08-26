@@ -409,7 +409,7 @@ body{
 }
 
 .box{
-  width: 286px;
+  width: 280px;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   overflow: hidden;
@@ -548,7 +548,11 @@ body{
 /*medicine section*/
 
 /*contact*/
-
+.contact{
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+}
 .contact-container {
   display: flex;
   padding-left: 5px;
