@@ -382,6 +382,8 @@ body{
 }
 
 /*medicine section*/
+
+
 .top .container .heading{
   padding-top: 8%;
   text-align: center;
@@ -398,8 +400,10 @@ body{
 }
 
 .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 6rem;
-  display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 1.5rem;
 }
